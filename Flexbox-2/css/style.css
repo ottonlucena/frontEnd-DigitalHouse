@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header .ofertas {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  position: sticky;
+  top: 0;
+}
+
+header div select {
+  border: none;
+  background-color: #000;
+  color: #fff;
+}
+
+nav {
+  background-color: #f0a83e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 10px;
+  color: #fff;
+}
+
+main section article {
+  position: relative;
+  top: 200px;
+  left: 850px;
+}
+
+h1 {
+  font-size: 2rem;
+  background-color: #fff;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+main section article p {
+  position: absolute;
+  left: 100px;
+}
+
+main section article button {
+  position: absolute;
+  top: 120px;
+  left: 150px;
+  background-color: #f0a83e;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+main .section1 {
+  background-image: url("../img/imgBackground.png");
+  height: 600px;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
